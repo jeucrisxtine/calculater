@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    background-image: linear-gradient(to left, rgba(185, 89, 159, 0), rgb(199, 63, 176));/* lawas teh*/
+}
+
+
+.calculator {
+    background-color: #ecacdd; /*body border sa calculator*/
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    outline-style: double;
+    outline-color: #ed8ecc;
+}
+
+
+#display {
+    width: 100%;
+    height: 40px;
+    font-size: 24px;
+    text-align: right;
+    margin-bottom: 10px;
+    margin-left: -8px;
+    border: 1px solid #e183c0; /*inner sa calculator*/
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+
+button {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    background-color: #e76dc6;  /*bg color sa mga buttons*/
+    color: white;  /*text color sa mga buttons*/
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+button:hover {
+    background-color: hsla(293, 54%, 20%, 0.63); /*pag i-kuan nmo imong cursor*/
+}
+
+
+
+/*JAVINAL, ELIPSE, COLALJO*/
